@@ -1,8 +1,8 @@
-Overview
+**Overview:-**
+
 This project implements a comprehensive Crime Record and Investigation Database using PostgreSQL. It is designed to store, organize, and analyze real-world criminal investigations—tracking cases, suspects, officers, evidence, witnesses, and case outcomes. The system provides advanced auditing (e.g., for evidence chain-of-custody), complex analytical queries, officer workload reporting, and flexible export of investigation summaries.
 
-Main Use Cases:
-
+**Main Use Cases:**
 Storing all entities and events involved in criminal investigations
 
 Supporting real-world data integrity (with foreign keys, triggers, audit/history logging)
@@ -11,7 +11,7 @@ Querying for reporting, analysis, and decision support
 
 User-friendly investigation summary exports
 
-Schema: Database Structure
+**Schema:** Database Structure
 Entity relationships have been carefully designed for normalization, traceability, and performance.
 
 cases_record: Tracks each criminal case (type, category, status, assigned officers, timeline, outcome).
@@ -32,7 +32,7 @@ case_timeline: Tracks significant events in each case (arrests, evidence collect
 
 crime_statistics: Aggregated stats for crime analysis and reporting.
 
-Key Features & How They Meet Project Criteria
+**Key Features & How They Meet Project Criteria**
 1. Well-Defined Relational Schema
 10+ normalized tables with all relationships and integrity constraints.
 
